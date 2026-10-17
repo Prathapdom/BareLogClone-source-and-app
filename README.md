@@ -116,3 +116,7 @@ What the script does:
 - Lines longer than 32,768 characters are shown truncated. Copying a line gives you up to 1 MiB of it.
 - Regular expressions are matched one line at a time. Patterns longer than 4,096 characters are rejected.
 - Files are polled rather than watched with change notifications. This is reliable on network shares and with writers that keep the file open, at the cost of up to 250 ms latency.
+
+## License
+
+[MIT](LICENSE).
